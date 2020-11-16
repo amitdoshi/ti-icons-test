@@ -1,7 +1,7 @@
 import { Component, ElementRef, Inject, Input, Optional } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
 import { tigitaleIcon } from './tigitale-icons';
 import { TigitaleIconsRegistry } from './tigitale-icons-registry';
-import { DOCUMENT } from '@angular/common';
 
 @Component({
   // tslint:disable-next-line: component-selector
