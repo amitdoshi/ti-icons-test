@@ -21,9 +21,8 @@ jobs:
         run: npm install
       - name: building 🔩
         run: npm run-script build
-      - name: go to dist folder 💼
+      - name: go to dist folder 💼 and publishing 🚀
         working-directory: ./dist/ti-icons-test/
-      - name: publishing 🚀
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
