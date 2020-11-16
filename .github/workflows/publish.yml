@@ -1,27 +1,25 @@
 name: "publish 🚀"
 
-#on:
-#  push:
-#    branches:
-#      - master
-
 on:
-  release:
-    types: [created]
+  push:
+    branches:
+      - master
 
 jobs:
   release:
     name: publish 🚀
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
+      - name: checkout ✅
         uses: actions/checkout@v2.1.1
-      - name: node
+      - name: node 🟢
         uses: actions/setup-node@v1.4.4
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org
-      - name: publish 🚀
+      - name: building 🔩
+        run: ng build --prod
+      - name: publishing 🚀
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
