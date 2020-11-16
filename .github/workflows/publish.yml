@@ -21,9 +21,8 @@ jobs:
         run: npm install
       - name: building 🔩
         run: npm run-script build
-      - name: go to dist folder
-        run: |
-           cd dist/ti-icons-test/
+      - name: go to dist folder 💼
+        working-directory: ./dist/ti-icons-test/
       - name: publishing 🚀
         run: npm publish --access public
         env:
