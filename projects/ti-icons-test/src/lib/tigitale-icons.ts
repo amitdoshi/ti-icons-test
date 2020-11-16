@@ -213,7 +213,6 @@ export type tigitaleIcon =
     'advertisement' |
     'alarm' |
     'alarm-checked' |
-    'arrows-diagonals' |
     '360' |
     'alarm-minus' |
     'alarm-no' |

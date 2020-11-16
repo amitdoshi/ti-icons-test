@@ -4,7 +4,7 @@ import { TigitaleIconsRegistry } from './tigitale-icons-registry';
 import { DOCUMENT } from '@angular/common';
 
 @Component({
-  //selector: 'lib-tigitale-icons',
+  // tslint:disable-next-line: component-selector
   selector: 'ti-icons',
   template: `
     <ng-content></ng-content>
@@ -26,8 +26,8 @@ export class TigitaleIconsComponent {
   }
 
   constructor(private element: ElementRef,
-    private tigitaleIconsRegistry: TigitaleIconsRegistry,
-    @Optional() @Inject(DOCUMENT) private document: any) { }
+              private tigitaleIconsRegistry: TigitaleIconsRegistry,
+              @Optional() @Inject(DOCUMENT) private document: any) { }
 
   private svgElementFromString(svgContent: string): SVGElement {
     const div = this.document.createElement('DIV');
