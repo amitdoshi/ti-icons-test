@@ -1,4 +1,4 @@
-name: "publish 🚀"
+name: "building 🔩 and publishing to npm 🚀"
 
 on:
   push:
@@ -17,8 +17,10 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org
+      - name: install the package dependencies 🔧
+        run: npm install
       - name: building 🔩
-        run: ng build --prod
+        run: npm run-script build
       - name: publishing 🚀
         run: npm publish --access public
         env:
