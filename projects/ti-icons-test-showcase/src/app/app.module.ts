@@ -4,7 +4,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TigitaleIconsModule } from 'projects/ti-icons-test/src/lib/tigitale-icons.module';
 
-
 @NgModule({
   declarations: [
     AppComponent
