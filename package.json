@@ -1,10 +1,11 @@
 {
   "name": "ti-icons-test",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/silv4b/ti-icons-test.git"
   },
+  "homepage": "https://github.com/silv4b/ti-icons-test#readme",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
