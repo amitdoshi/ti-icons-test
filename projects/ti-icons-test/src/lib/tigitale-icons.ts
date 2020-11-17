@@ -208,7 +208,7 @@ export const tigitaleIconsHome: TigitaleIcon = {
     data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / basic / home"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M5.88867 10L11.89 3.99867L17.8913 10H17.89V20H5.89001V10H5.88867ZM3.89001 11.9987L2.4132 13.4755L1 12.0623L10.477 2.58529C11.2574 1.8049 12.5226 1.8049 13.303 2.58529L22.78 12.0623L21.3668 13.4755L19.89 11.9987V20C19.89 21.1046 18.9946 22 17.89 22H5.89001C4.78545 22 3.89001 21.1046 3.89001 20V11.9987Z" fill="black"/></g></svg>'
 };
 
-// at0-sign até browser-no (parei no bell-no)
+// at-sign até browser-no (parei no bell-no)
 
 export const tigitaleIconsAtSign: TigitaleIcon = {
   name: 'at-sign',
@@ -270,75 +270,409 @@ export const tigitaleIconsBellNo: TigitaleIcon = {
   data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / notifications / bell-no"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M19 14.7799V9.99619C19 5.93873 16.7616 3.1226 13.8653 2.27717C13.7605 2.00593 13.5947 1.75378 13.3694 1.5422C12.5997 0.819267 11.4002 0.819267 10.6305 1.5422C10.4057 1.75332 10.2402 2.00483 10.1353 2.27538C9.26826 2.52704 8.46066 2.95463 7.75444 3.53919L9.17632 4.96047C9.99116 4.33972 10.9706 4.01111 12 4.01111C14.6597 4.01111 17 6.22907 17 9.99619C17 11.1799 17.1025 12.1973 17.3031 13.0839L19 14.7799ZM14.0878 22.4135C15.0074 21.8525 15.6241 20.9904 15.8743 20.006H18.5918L21.2928 22.7071L22.7071 21.2929L2.70706 1.29289L1.29285 2.70711L5.48726 6.90152C5.17374 7.82494 4.99995 8.86162 4.99995 9.99619C4.99995 12.629 4.46894 14.1042 3.48591 15.1733C3.32156 15.3521 2.87626 15.7615 2.57462 16.0389C2.4319 16.1701 2.32135 16.2718 2.28792 16.3055L1.99995 16.5974V20.006L8.08793 20.006C8.29379 21.0676 8.87005 21.7779 9.91215 22.4135C11.1941 23.1955 12.8058 23.1955 14.0878 22.4135ZM7.12509 8.53935L16.5926 18.0069H3.99995V17.4454C4.29603 17.1742 4.74839 16.7546 4.95844 16.5261C6.29418 15.0734 6.99995 13.1127 6.99995 9.99619C6.99995 9.48079 7.04336 8.99464 7.12509 8.53935ZM10.1786 20.006H13.7367C13.5757 20.2856 13.3433 20.5256 13.0459 20.707C12.4037 21.0988 11.5962 21.0988 10.954 20.707C10.5607 20.4671 10.3199 20.2687 10.1786 20.006Z" fill="black"/></g></svg>'
 };
 
+// bluetooth até browser-no (parei no bell-no)
+
+export const tigitaleIconsBluetooth: TigitaleIcon = {
+  name: 'bluetooth',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / connection / bluetooth"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M6.29297 7.70711L7.70718 6.29289L11.0001 9.58578V1.58578L17.4143 8L13.4143 12L17.4143 16L11.0001 22.4142V14.4142L7.70718 17.7071L6.29297 16.2929L10.5859 12L6.29297 7.70711ZM13.0001 17.5858L14.5859 16L13.0001 14.4142V17.5858ZM14.5859 8L13.0001 9.58578V6.41421L14.5859 8Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsBluetoothNo: TigitaleIcon = {
+  name: 'bluetooth-no',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / connection / bluetooth-no"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M10.5859 12L1.29297 2.70711L2.70718 1.29289L22.7072 21.2929L21.293 22.7071L16.0001 17.4142L11.0001 22.4142V14.4142L7.70718 17.7071L6.29297 16.2929L10.5859 12ZM13.0001 17.5858L14.5859 16L13.0001 14.4142V17.5858ZM11.0001 1.58579V6.78579L13.0001 8.78579V6.41421L14.5859 8L13.4001 9.18579L14.8143 10.6L17.4143 8L11.0001 1.58579Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsBluetoothBook: TigitaleIcon = {
+  name: 'book',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / basic / book"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M21 22H6C4.34315 22 3 20.6569 3 19V5C3 3.34315 4.34315 2 6 2H21V18C20.4477 18 20 18.4477 20 19C20 19.5523 20.4477 20 21 20V22ZM18 19C18 18.6494 18.0602 18.3128 18.1707 18H6C5.44772 18 5 18.4477 5 19C5 19.5523 5.44772 20 6 20H18.1707C18.0602 19.6872 18 19.3506 18 19ZM6 4H19V16H6C5.64936 16 5.31278 16.0602 5 16.1707V5C5 4.44772 5.44772 4 6 4Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsBluetoothBookmark: TigitaleIcon = {
+  name: 'bookmark',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / basic / bookmark"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M5 22.618L12 19.118L19 22.618V4C19 2.89543 18.1046 2 17 2H7C5.89543 2 5 2.89543 5 4V22.618ZM12 16.882L7 19.382V4H17V19.382L12 16.882Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsBluetoothBookmarkAdd: TigitaleIcon = {
+  name: 'bookmark-add',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / basic / bookmark-add"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M17 17V19.382L12 16.882L7 19.382V4H17V5H19V4C19 2.89543 18.1046 2 17 2H7C5.89543 2 5 2.89543 5 4V22.618L12 19.118L19 22.618V17H17ZM18 8V10H16V12H18V14H20V12H22V10H20V8H18Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsBluetoothBookmarkNo: TigitaleIcon = {
+  name: 'bookmark-no',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / basic / bookmark-no"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M2.70706 1.29289L1.29285 2.70711L4.99995 6.41421V22.618L12 19.118L19 22.618V20.4142L21.2928 22.7071L22.7071 21.2929L2.70706 1.29289ZM17 18.4142L6.99995 8.41421V19.382L12 16.882L17 19.382V18.4142ZM17 4V12.7858L19 14.7858V4C19 2.89543 18.1045 2 17 2H6.99995C6.76473 2 6.53899 2.04061 6.32936 2.11519L8.21417 4H17Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsBluetoothBookmarks: TigitaleIcon = {
+  name: 'bookmarks',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / basic / bookmarks"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M10 1C8.90652 1 8.01801 1.89236 8.00027 3H19V17.9156L21 18.9324V3.03378C21 1.91055 20.1046 1 19 1H10ZM10 19.118L3 22.618V7C3 5.89543 3.89543 5 5 5H15C16.1046 5 17 5.89543 17 7V22.618L10 19.118ZM5 19.382L10 16.882L15 19.382V7H5V19.382Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsBox: TigitaleIcon = {
+  name: 'box',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / basic / box"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M20 19V9C21.1046 9 22 8.10457 22 7V5C22 3.89543 21.1046 3 20 3H4C2.89543 3 2 3.89543 2 5V7C2 8.10457 2.89543 9 4 9V19C4 20.1046 4.89543 21 6 21H18C19.1046 21 20 20.1046 20 19ZM6 19V9H18V19H6ZM9 12V10H15V12H9ZM4 7V5H20V7H4Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsBrightnessHigh: TigitaleIcon = {
+  name: 'brightness-high',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / various / brightness-high"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M13 5.07089C12.6734 5.02417 12.3395 5 12 5C11.6605 5 11.3266 5.02417 11 5.07089V1.04484C11.3294 1.01516 11.6629 1 12 1C12.3371 1 12.6706 1.01516 13 1.04484V5.07089ZM7 12C7 14.7614 9.23858 17 12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7C9.23858 7 7 9.23858 7 12ZM15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12C9 10.3431 10.3431 9 12 9C13.6569 9 15 10.3431 15 12ZM13 22.9552V18.9291C12.6734 18.9758 12.3395 19 12 19C11.6605 19 11.3266 18.9758 11 18.9291V22.9552C11.3294 22.9848 11.6629 23 12 23C12.3371 23 12.6706 22.9848 13 22.9552ZM18.9291 11H22.9552C22.9848 11.3294 23 11.6629 23 12C23 12.3371 22.9848 12.6706 22.9552 13H18.9291C18.9758 12.6734 19 12.3395 19 12C19 11.6605 18.9758 11.3266 18.9291 11ZM5 12C5 11.6605 5.02417 11.3266 5.07089 11H1.04484C1.01516 11.3294 1 11.6629 1 12C1 12.3371 1.01516 12.6706 1.04484 13H5.07089C5.02417 12.6734 5 12.3395 5 12ZM16.1922 6.39362L19.0391 3.54673C19.5521 3.9744 20.0256 4.44791 20.4533 4.96094L17.6064 7.80783C17.2049 7.27173 16.7283 6.79513 16.1922 6.39362ZM3.54673 4.96094L6.39362 7.80783C6.79513 7.27173 7.27173 6.79513 7.80783 6.39362L4.96094 3.54673C4.44791 3.9744 3.9744 4.44791 3.54673 4.96094ZM17.6064 16.1922L20.4533 19.0391C20.0256 19.5521 19.5521 20.0256 19.0391 20.4533L16.1922 17.6064C16.7283 17.2049 17.2049 16.7283 17.6064 16.1922ZM4.96094 20.4533L7.80783 17.6064C7.27173 17.2049 6.79513 16.7283 6.39362 16.1922L3.54673 19.0391C3.9744 19.5521 4.44791 20.0256 4.96094 20.4533Z" fill="black"/></g></svg>'
+};
+
+export const tigitaleIconsBrightnessLow: TigitaleIcon = {
+  name: 'brightness-low',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / various / brightness-low"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M13 5.07089C12.6734 5.02417 12.3395 5 12 5C11.6605 5 11.3266 5.02417 11 5.07089V3.05493C11.3283 3.01863 11.662 3 12 3C12.338 3 12.6717 3.01863 13 3.05493V5.07089ZM7 12C7 14.7614 9.23858 17 12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7C9.23858 7 7 9.23858 7 12ZM15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12C9 10.3431 10.3431 9 12 9C13.6569 9 15 10.3431 15 12ZM13 20.9451V18.9291C12.6734 18.9758 12.3395 19 12 19C11.6605 19 11.3266 18.9758 11 18.9291V20.9451C11.3283 20.9814 11.662 21 12 21C12.338 21 12.6717 20.9814 13 20.9451ZM18.9291 11H20.9451C20.9814 11.3283 21 11.662 21 12C21 12.338 20.9814 12.6717 20.9451 13H18.9291C18.9758 12.6734 19 12.3395 19 12C19 11.6605 18.9758 11.3266 18.9291 11ZM5 12C5 11.6605 5.02417 11.3266 5.07089 11H3.05493C3.01863 11.3283 3 11.662 3 12C3 12.338 3.01863 12.6717 3.05493 13H5.07089C5.02417 12.6734 5 12.3395 5 12ZM16.1922 6.39362L17.6177 4.9681C18.1397 5.38571 18.6143 5.86025 19.0319 6.38231L17.6064 7.80783C17.2049 7.27173 16.7283 6.79513 16.1922 6.39362ZM4.9681 6.38231L6.39362 7.80783C6.79513 7.27173 7.27173 6.79513 7.80783 6.39362L6.38231 4.9681C5.86025 5.38571 5.38571 5.86025 4.9681 6.38231ZM17.6064 16.1922L19.0319 17.6177C18.6143 18.1397 18.1397 18.6143 17.6177 19.0319L16.1922 17.6064C16.7283 17.2049 17.2049 16.7283 17.6064 16.1922ZM6.38231 19.0319L7.80783 17.6064C7.27173 17.2049 6.79513 16.7283 6.39362 16.1922L4.9681 17.6177C5.38571 18.1397 5.86025 18.6143 6.38231 19.0319Z" fill="black"/></g></svg>'
+};
+
+
+export const tigitaleIconsBroadcast: TigitaleIcon = {
+  name: 'broadcast',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / connection / broadcast"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M4.40763 4.03999L5.88599 5.39515C4.11104 7.03906 3 9.38961 3 11.9997C3 14.6097 4.11104 16.9603 5.88599 18.6042L4.40763 19.9593C2.30811 17.9561 1 15.1307 1 11.9997C1 8.86868 2.30811 6.04322 4.40763 4.03999ZM9 12C9 13.6568 10.3431 15 12 15C13.6569 15 15 13.6568 15 12C15 10.3431 13.6569 8.99999 12 8.99999C10.3431 8.99999 9 10.3431 9 12ZM13 12C13 12.5523 12.5523 13 12 13C11.4477 13 11 12.5523 11 12C11 11.4477 11.4477 11 12 11C12.5523 11 13 11.4477 13 12ZM8.8525 8.11445L7.36666 6.75244C5.91525 8.03502 5 9.91046 5 11.9997C5 14.0889 5.91525 15.9643 7.36666 17.2469L8.8525 15.8849C7.72232 14.9682 7 13.5683 7 11.9997C7 10.4311 7.72232 9.03116 8.8525 8.11445ZM19.5924 4.04032C21.6919 6.04355 23 8.86901 23 12C23 15.131 21.6919 17.9564 19.5924 19.9597L18.114 18.6045C19.889 16.9606 21 14.61 21 12C21 9.38994 19.889 7.03939 18.114 5.39548L19.5924 4.04032ZM19 12C19 9.91079 18.0848 8.03535 16.6333 6.75277L15.1475 8.11478C16.2777 9.03149 17 10.4314 17 12C17 13.5686 16.2777 14.9685 15.1475 15.8852L16.6333 17.2472C18.0848 15.9646 19 14.0892 19 12Z" fill="black"/></g></svg>'
+};
+
+
+export const tigitaleIconsBroadcasting: TigitaleIcon = {
+  name: 'broadcasting',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / connection / broadcasting"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M3.89126 2.56665L5.36557 3.91811C3.89657 5.51979 3 7.65503 3 9.99966C3 12.3443 3.89657 14.4795 5.36557 16.0812L3.89126 17.4327C2.09581 15.4751 1 12.8653 1 9.99966C1 7.134 2.09581 4.52427 3.89126 2.56665ZM20.1087 2.56698C21.9042 4.5246 23 7.13433 23 9.99999C23 12.8657 21.9042 15.4754 20.1087 17.433L18.6344 16.0816C20.1034 14.4799 21 12.3446 21 9.99999C21 7.65536 20.1034 5.52012 18.6344 3.91844L20.1087 2.56698ZM8.72076 22L9.38743 20H14.6126L15.2792 22H17.3874L14.1012 12.1413C14.6559 11.5969 15 10.8386 15 9.99999C15 8.34314 13.6569 6.99999 12 6.99999C10.3431 6.99999 9 8.34314 9 9.99999C9 10.8386 9.3441 11.5969 9.89882 12.1413L6.61257 22H8.72076ZM10.0541 18L10.7208 16H13.2792L13.9459 18H10.0541ZM12.6126 14L12.2751 12.9875C12.1845 12.9958 12.0927 13 12 13C11.9073 13 11.8155 12.9958 11.7249 12.9875L11.3874 14H12.6126ZM13 9.99999C13 10.5523 12.5523 11 12 11C11.4477 11 11 10.5523 11 9.99999C11 9.44771 11.4477 8.99999 12 8.99999C12.5523 8.99999 13 9.44771 13 9.99999ZM19 9.99999C19 8.17639 18.3027 6.51565 17.1601 5.26989L15.6858 6.62135C16.5019 7.51118 17 8.69742 17 9.99999C17 11.3026 16.5019 12.4888 15.6858 13.3786L17.1601 14.7301C18.3027 13.4843 19 11.8236 19 9.99999ZM8.31421 6.62102L6.83989 5.26956C5.69733 6.51532 5 8.17606 5 9.99966C5 11.8233 5.69733 13.484 6.83989 14.7298L8.31421 13.3783C7.4981 12.4885 7 11.3022 7 9.99966C7 8.69709 7.4981 7.51085 8.31421 6.62102Z" fill="black"/></g></svg>'
+};
+
+
+export const tigitaleIconsBrowser: TigitaleIcon = {
+  name: 'browser',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / basic / browser"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M21 9H3V19H21V9ZM21 7V5H3V7H21ZM3 21C1.89543 21 1 20.1046 1 19V5C1 3.89543 1.89543 3 3 3H21C22.1046 3 23 3.89543 23 5V19C23 20.1046 22.1046 21 21 21H3Z" fill="black"/></g></svg>'
+};
+
+
+export const tigitaleIconsBrowserNo: TigitaleIcon = {
+  name: 'browser-no',
+  data: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="24 / basic / browser-no"><path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M12 15.4142L9.70711 17.7071L8.29289 16.2929L10.5858 14L8.29289 11.7071L9.70711 10.2929L12 12.5858L14.2929 10.2929L15.7071 11.7071L13.4142 14L15.7071 16.2929L14.2929 17.7071L12 15.4142ZM21 9H3V19H21V9ZM21 7V5H3V7H21ZM3 21C1.89543 21 1 20.1046 1 19V5C1 3.89543 1.89543 3 3 3H21C22.1046 3 23 3.89543 23 5V19C23 20.1046 22.1046 21 21 21H3Z" fill="black"/></g></svg>'
+};
+
+/*
+export const tigitaleIcons: TigitaleIcon = {
+  name: '',
+  data: ''
+};
+*/
+
 export type tigitaleIcon =
-    'airplay' |
-    'advertisement' |
-    'alarm' |
-    'alarm-checked' |
-    '360' |
-    'alarm-minus' |
-    'alarm-no' |
-    'alarm-plus' |
-    'alarm-snooze' |
-    'alert-circle' |
-    'alert-octagon' |
-    'alert-triangle' |
-    'app-notification' |
-    'arrow-bottom' |
-    'arrow-bottom-left' |
-    'arrow-bottom-right' |
-    'arrow-forward' |
-    'arrow-forward-all' |
-    'arrow-left' |
-    'arrow-left-curved' |
-    'arrow-redo' |
-    'arrow-reply' |
-    'arrow-reply-all' |
-    'arrow-right' |
-    'arrow-right-curved' |
-    'arrows-diagonals' |
-    'arrows-diagonals-bltr' |
-    'arrows-diagonals-tlbr' |
-    'arrows-hv' |
-    'arrow-top' |
-    'arrow-top-left' |
-    'arrow-top-right' |
-    'arrow-undo' |
-    'at-sign' |
-    'bar-chart' |
-    'battery' |
-    'battery-20' |
-    'battery-40' |
-    'battery-60' |
-    'battery-80' |
-    'battery-100' |
-    'battery-charching' |
-    'battery-no' |
-    'bell-checked' |
-    'bell-no' |
-    'bluetooth' |
-    'bluetooth-no' |
-    'book' |
-    'bookmark' |
-    'bookmark-add' |
-    'bookmark-no' |
-    'bookmarks' |
-    'box' |
-    'brightness-high' |
-    'brightness-low' |
-    'broadcast' |
-    'broadcasting' |
-    'browser' |
-    'browser-no' |
-    'user' |
-    'calendar-dates' |
-    'clipboard-text' |
-    'video' |
-    'settings' |
-    'home' |
-    'search' |
-    'bell' |
-    'pin' ;
+'360' |
+'advertisement' |
+'airplay' |
+'alarm-checked' |
+'alarm-minus' |
+'alarm-no' |
+'alarm-plus' |
+'alarm-snooze' |
+'alarm' |
+'alert-circle' |
+'alert-octagon' |
+'alert-triangle' |
+'app-notification' |
+'arrow-bottom-left' |
+'arrow-bottom-right' |
+'arrow-bottom' |
+'arrow-forward-all' |
+'arrow-forward' |
+'arrow-left-curved' |
+'arrow-left' |
+'arrow-redo' |
+'arrow-reply-all' |
+'arrow-reply' |
+'arrow-right-curved' |
+'arrow-right' |
+'arrow-top-left' |
+'arrow-top-right' |
+'arrow-top' |
+'arrow-undo' |
+'arrows-diagonals-bltr' |
+'arrows-diagonals-tlbr' |
+'arrows-diagonals' |
+'arrows-hv' |
+'at-sign' |
+'bar-chart' |
+'battery-100' |
+'battery-20' |
+'battery-40' |
+'battery-60' |
+'battery-80' |
+'battery-charching' |
+'battery-no' |
+'battery' |
+'bell-checked' |
+'bell-no' |
+'bell' |
+'bluetooth-no' |
+'bluetooth' |
+'book' |
+'bookmark-add' |
+'bookmark-no' |
+'bookmark' |
+'bookmarks' |
+'box' |
+'brightness-high' |
+'brightness-low' |
+'broadcast' |
+'broadcasting' |
+'browser-no' |
+'browser' |
+'calculator' |
+'calendar-checked' |
+'calendar-create' |
+'calendar-dates' |
+'calendar-delete' |
+'calendar-minus' |
+'calendar-plus' |
+'calendar' |
+'call-add' |
+'call-calling' |
+'call-decline' |
+'call-end' |
+'call-forwarded' |
+'call-hash' |
+'call-hold' |
+'call-incoming' |
+'call-missed' |
+'call-muted' |
+'call-no' |
+'call-numbers' |
+'call-outcoming' |
+'call-phone' |
+'call-recieved' |
+'call-voicemail' |
+'camera-create' |
+'camera-no' |
+'camera' |
+'case' |
+'cast' |
+'check-mark' |
+'check-marks' |
+'chevron-bottom' |
+'chevron-left' |
+'chevron-right' |
+'chevron-top' |
+'chevrons-bottom' |
+'chevrons-left' |
+'chevrons-right' |
+'chevrons-top' |
+'circle-arrow-bottom-left' |
+'circle-arrow-bottom-right' |
+'circle-arrow-bottom' |
+'circle-arrow-left-curved' |
+'circle-arrow-left' |
+'circle-arrow-right-curved' |
+'circle-arrow-right' |
+'circle-arrow-top-left' |
+'circle-arrow-top-right' |
+'circle-arrow-top' |
+'circle-block' |
+'circle-checked' |
+'circle-chevron-bottom' |
+'circle-chevron-left' |
+'circle-chevron-right' |
+'circle-chevron-top' |
+'circle-menu' |
+'circle-minus' |
+'circle-more-horizontal' |
+'circle-more-vertical' |
+'circle-plus' |
+'circle-star' |
+'circle-x' |
+'circle' |
+'clear-style' |
+'clipboard-checked' |
+'clipboard-delete' |
+'clipboard-minus' |
+'clipboard-plus' |
+'clipboard-text' |
+'clipboard' |
+'cloud-checked' |
+'cloud-download' |
+'cloud-no' |
+'cloud-upload' |
+'cloud' |
+'command' |
+'comment-checked' |
+'comment-delete' |
+'comment-minus' |
+'comment-plus' |
+'comment-text' |
+'comment' |
+'compas' |
+'copy' |
+'creditcard-add' |
+'creditcard-face' |
+'creditcard-income' |
+'creditcard-no' |
+'creditcard-outcome' |
+'creditcard-scan' |
+'creditcard' |
+'cross' |
+'crosshairs' |
+'cut' |
+'dashboard' |
+'delete' |
+'devices' |
+'download' |
+'drop' |
+'eject' |
+'external-link' |
+'eye-no' |
+'eye' |
+'file-checked' |
+'file-code' |
+'file-create' |
+'file-delete' |
+'file-download' |
+'file-draft' |
+'file-minus' |
+'file-plus' |
+'file-scan' |
+'file-shredder' |
+'file-text' |
+'file-upload' |
+'file' |
+'flame' |
+'flash-card' |
+'floppy' |
+'folder-arrow' |
+'folder-checked' |
+'folder-cloud' |
+'folder-delete' |
+'folder-minus' |
+'folder-opened' |
+'folder-photo' |
+'folder-plus' |
+'folder' |
+'form' |
+'globe-no' |
+'globe' |
+'hash' |
+'heart-no' |
+'heart' |
+'home' |
+'iPad' |
+'iPhone' |
+'image' |
+'inbox' |
+'info' |
+'items' |
+'key-no' |
+'key' |
+'laptop' |
+'layers' |
+'lightbulb' |
+'lightning-no' |
+'lightning' |
+'link-no' |
+'link' |
+'list' |
+'location-no' |
+'location' |
+'lock-circle' |
+'lock-no' |
+'lock' |
+'mail' |
+'map' |
+'maximize' |
+'memory-card' |
+'menu-dots' |
+'menu' |
+'mic-no' |
+'mic' |
+'minimize' |
+'minus-octagon' |
+'minus' |
+'mobile' |
+'monitor' |
+'moon' |
+'more-horizontal' |
+'more-vertical' |
+'newspaper' |
+'note-text' |
+'note' |
+'options' |
+'panorama' |
+'paperclip-no' |
+'paperclip' |
+'pencil-create' |
+'pencil-edit' |
+'pin-add' |
+'pin-no' |
+'pin-question' |
+'pin-start' |
+'pin' |
+'player-fast-back' |
+'player-fast-forward' |
+'player-pause' |
+'player-play-pause' |
+'player-play' |
+'player-skip-back' |
+'player-skip-forward' |
+'player-stop' |
+'plus' |
+'pocket' |
+'presentation' |
+'printer' |
+'pulse' |
+'question-circle' |
+'question' |
+'radar' |
+'record' |
+'refresh-ccw-alert' |
+'refresh-ccw' |
+'refresh-cw-alert' |
+'refresh-cw' |
+'rotate-ccw' |
+'rotate-cw' |
+'scan' |
+'screenshot' |
+'search' |
+'send' |
+'server' |
+'settings' |
+'share-arrow' |
+'share' |
+'shield-lock' |
+'shield-no' |
+'shield-ok' |
+'shield' |
+'star-no' |
+'star' |
+'sticker' |
+'stopwatch' |
+'sun' |
+'table' |
+'text-align-center' |
+'text-align-justify' |
+'text-align-left' |
+'text-align-right' |
+'text-bgcolor' |
+'text-bold' |
+'text-color' |
+'text-italic' |
+'text-underline' |
+'thumbs-down' |
+'thumbs-up' |
+'time-history' |
+'time' |
+'timer' |
+'toggle-left' |
+'toggle-right' |
+'trash-empty' |
+'trash' |
+'unlock' |
+'user' |
+'video-no' |
+'video' |
+'volume-high' |
+'volume-low' |
+'volume-no' |
+'volume-off' |
+'volume' |
+'wi-fi-no' |
+'wi-fi' |
+'x-octagon' |
+'zoom-in' |
+'zoom-out';
 
 export interface TigitaleIcon {
     name: tigitaleIcon;
