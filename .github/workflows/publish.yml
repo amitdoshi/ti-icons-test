@@ -1,9 +1,8 @@
 name: "building 🔩 and publishing to npm 🚀"
 
 on:
-  push:
-    branches:
-      - master
+  release:
+    types: [created]
 
 jobs:
   release:
