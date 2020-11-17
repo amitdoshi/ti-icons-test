@@ -13,8 +13,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "version": "cd projects/ti-icons-test && npm version ",
-    "send": "git add . && git commit -m "
+    "version": "cd projects/ti-icons-test && npm version "
   },
   "private": false,
   "dependencies": {
