@@ -1,6 +1,6 @@
 {
   "name": "ti-icons-test",
-  "version": "2.3.4",
+  "version": "2.3.5",
   "repository": {
     "type": "git",
     "url": "https://github.com/silv4b/ti-icons-test.git"
@@ -12,7 +12,9 @@
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "in_project": "cd projects/ti-icons-test",
+    "version": "npm run in_project && npm version "
   },
   "private": false,
   "dependencies": {
