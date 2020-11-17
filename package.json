@@ -14,7 +14,9 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "in_project": "cd projects/ti-icons-test",
-    "version": "npm run in_project && npm version "
+    "_patch": "npm run in_project && npm version patch",
+    "_minor": "npm run in_project && npm version minor",
+    "_major": "npm run in_project && npm version major"
   },
   "private": false,
   "dependencies": {
