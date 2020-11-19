@@ -1,6 +1,6 @@
 {
   "name": "@silv4b/ti-icons-test",
-  "version": "6.2.1",
+  "version": "6.2.2",
   "peerDependencies": {
     "@angular/common": "^10.2.0",
     "@angular/core": "^10.2.0"

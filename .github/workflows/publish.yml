@@ -3,7 +3,7 @@ name: "building 🔩 and publishing to npm 🚀"
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   release:
