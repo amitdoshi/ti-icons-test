@@ -1,8 +1,9 @@
 name: "building 🔩 and publishing to npm 🚀"
 
 on:
-  release:
-    types: [created]
+  push:
+    branches:
+      - main
 
 jobs:
   release:
@@ -18,10 +19,10 @@ jobs:
           node-version: 12
           registry-url: https://registry.npmjs.org
 
-      - name: install the package dependencies 🔧
+      - name: install package dependencies 🔧
         run: npm install
 
-      - name: building 🔩
+      - name: building project 🔩
         run: npm run-script build
 
       - name: go to dist folder 💼 and publishing 🚀
