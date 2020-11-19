@@ -1,6 +1,6 @@
 {
-  "name": "@silv4b/ti-icons-test",
-  "version": "6.2.3",
+  "name": "ti-icons-test",
+  "version": "6.2.4",
   "peerDependencies": {
     "@angular/common": "^10.2.0",
     "@angular/core": "^10.2.0"
@@ -11,5 +11,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/silv4b/ti-icons-test.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
