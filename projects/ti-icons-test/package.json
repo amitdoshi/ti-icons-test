@@ -1,6 +1,6 @@
 {
   "name": "ti-icons-test",
-  "version": "6.2.4",
+  "version": "6.2.5",
   "peerDependencies": {
     "@angular/common": "^10.2.0",
     "@angular/core": "^10.2.0"
