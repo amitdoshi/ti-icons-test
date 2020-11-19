@@ -14,7 +14,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "versionp": "cd projects/ti-icons-test && npm version ",
-    "versionf": "npm version --force"
+    "versionf": "npm version --force",
+    "bs": "ng build && ng serve"
   },
   "private": false,
   "dependencies": {
